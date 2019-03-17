@@ -13,6 +13,6 @@ The page will reload if you make edits.<br>
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://nextjs.org/docs).
+You can learn more in the [NEXT.js documentation](https://nextjs.org/docs).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
