@@ -1,5 +1,6 @@
 require('es6-promise').polyfill();
 require('isomorphic-fetch');
+import Head from 'next/head';
 import React, { Component } from 'react';
 import List from '../components/list/List';
 import Layout from '../components/layout/Layout';
@@ -14,6 +15,13 @@ class Books extends Component {
   render() {
     return (
       <div>
+        <Head>
+          <title>My Collection</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+        </Head>
         <Layout>
           <div>
             <List

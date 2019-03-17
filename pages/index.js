@@ -5,7 +5,7 @@ function IndexPage() {
   return (
     <div>
       <Head>
-        <title>My page title</title>
+        <title>My Collection</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Layout />
